@@ -1,0 +1,22 @@
+{
+	"name": "ts-colors",
+	"displayName": "Typescript Theme",
+	"description": "Typescript Theme",
+	"version": "0.0.1",
+	"publisher": "dlepex",
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Typescript Theme",
+				"uiTheme": "vs",
+				"path": "./themes/ts-theme.color-theme.json"
+			}
+		]
+	}
+}
